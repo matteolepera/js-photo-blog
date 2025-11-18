@@ -11,7 +11,7 @@ Google Font.
 ## Scaletta di lavoro:
 ### HTML, CSS:
 - [ ] Creare scheletro.
-    - [ ] Header con titolo principale.
+    - [x] Header con titolo principale.
     - [ ] Griglia per posizionare le foto(card).
     - [ ] Creare le foto(card).
 
