@@ -24,8 +24,8 @@ axios
                     <div class="card-body">
                         <div class="pin"><img src="./img/pin.svg" alt="" height="30"></div>
                         <img src=${curPhoto.url} alt="">
-                        <p> <span>${curPhoto.date}</span><br>
-                            <span>${curPhoto.title.toUpperCase()}</span>
+                        <p> <span class="date-photo">${curPhoto.date}</span><br>
+                            <span class="title-photo">${curPhoto.title.toUpperCase()}</span>
                         </p>
                     </div>
             `

@@ -83,3 +83,15 @@ body {
     top: 0;
     transform: translate(-50%, -50%);
 }
+
+.date-photo {
+    font-family: "Sometype Mono", monospace;
+    color: #767B89;
+    font-weight: 400;
+}
+
+.title-photo {
+    font-family: "Edu TAS Beginner", sans-serif;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
