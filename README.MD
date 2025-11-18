@@ -17,8 +17,8 @@ Google Font.
     - [x] Rendere la griglia responsive.
 
 ### JS:
-- [ ] Impostare la logica.
-    - [ ] Prelevare elementi dal DOM.
-    - [ ] Fare chiamata api per prelevare i dati.
-    - [ ] Creare foto(card) dinamicamente.
-    - [ ] Stampare foto(card) in pagina.
+- [x] Impostare la logica.
+    - [x] Prelevare elementi dal DOM.
+    - [x] Fare chiamata api per prelevare i dati.
+    - [x] Creare foto(card) dinamicamente.
+    - [x] Stampare foto(card) in pagina.
