@@ -75,7 +75,18 @@ body {
 .card {
     background-color: white;
     position: relative;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.6);
 }
+
+.card:hover {
+    transform: scale(1.2) rotate(16deg);
+    z-index: 9999;
+}
+
+.card:hover .pin {
+    display: none;
+}
+
 
 .pin {
     position: absolute;
