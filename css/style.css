@@ -12,10 +12,25 @@ img {
 /* TIPOGRAPHY */
 
 /* UTILITY */
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.py-10 {
+    padding: 10px 10px;
+}
 
 /* FLEX */
 .flex {
     display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
 }
 
 .justify-center {
@@ -26,11 +41,14 @@ img {
     align-items: center;
 }
 
+.gap-20 {
+    gap: 20px;
+}
 
 /* LAYOUT */
-
 header {
     background-image: url(../img/wall.png);
+    background-size: cover;
     height: 80px;
     text-align: center;
 }
@@ -40,10 +58,28 @@ h1 {
     font-size: 3rem;
 }
 
-.container {
-    width: 90%;
-    margin: 0 auto;
+body {
+    background-image: url(../img/cork.png);
+    background-size: cover;
+}
 
-    /* debug */
-    background-color: red;
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.col {
+    width: 100%
+}
+
+.card {
+    background-color: white;
+    position: relative;
+}
+
+.pin {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -50%);
 }

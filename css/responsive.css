@@ -1,0 +1,15 @@
+@media screen and (min-width: 650px) {
+    .col {
+        width: calc(100% / 2 - 20px / 2);
+    }
+}
+
+@media screen and (min-width: 920px) {
+    .col {
+        width: calc(100% / 3 - 40px / 3);
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+}

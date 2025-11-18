@@ -10,10 +10,11 @@ Google Font.
 
 ## Scaletta di lavoro:
 ### HTML, CSS:
-- [ ] Creare scheletro.
+- [x] Creare scheletro.
     - [x] Header con titolo principale.
-    - [ ] Griglia per posizionare le foto(card).
-    - [ ] Creare le foto(card).
+    - [x] Griglia per posizionare le foto(card).
+    - [x] Creare le foto(card).
+    - [x] Rendere la griglia responsive.
 
 ### JS:
 - [ ] Impostare la logica.
