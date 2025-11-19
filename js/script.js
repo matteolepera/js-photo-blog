@@ -38,13 +38,22 @@ axios
             colPhoto.addEventListener("click", function () {
                 overWrap.classList.remove("d-none");
                 boxAlert.classList.remove("d-none");
-            });
+                const img = document.createElement('img');
 
-            btnAlert.addEventListener("click", function () {
-                overWrap.classList.add("d-none");
-                boxAlert.classList.add("d-none");
-            })
+                img.src = curPhoto.url;
+                boxAlert.appendChild(img);
+
+
+                btnAlert.addEventListener("click", function () {
+                    overWrap.classList.add("d-none");
+                    boxAlert.classList.add("d-none");
+                    img.remove();
+
+                })
+            });
 
             photoGrid.append(colPhoto);
         });
     })
+
+
