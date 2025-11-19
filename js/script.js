@@ -8,6 +8,10 @@
 //DOM
 const photoGrid = document.getElementById("photo-grid");
 // console.log(photoGrid);
+const overWrap = document.querySelector(".over-wrap");
+const boxAlert = document.querySelector(".box-alert");
+const btnAlert = document.getElementById("btn-alert");
+// console.log(overWrap, boxAlert, btnAlert);
 
 //chiamata
 
@@ -29,6 +33,18 @@ axios
                         </p>
                     </div>
             `
+
+            //click della foto
+            colPhoto.addEventListener("click", function () {
+                overWrap.classList.remove("d-none");
+                boxAlert.classList.remove("d-none");
+            });
+
+            btnAlert.addEventListener("click", function () {
+                overWrap.classList.add("d-none");
+                boxAlert.classList.add("d-none");
+            })
+
             photoGrid.append(colPhoto);
         });
     })
