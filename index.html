@@ -18,7 +18,7 @@
     <title>Album Fotografico</title>
 </head>
 <!-- Overlay -->
-<div class="over-wrap"></div>
+<div class="over-wrap d-none"></div>
 
 <header class="flex justify-center align-center">
     <h1>ESTATE '24</h1>
@@ -28,9 +28,9 @@
 
     <div class="container">
 
-        <div class="box-alert flex justify-center">
+        <div class="box-alert flex flex-col align-center justify-center d-none">
+            <button id="btn-alert" class="my-10">Chiudi</button>
             <img src="./img/wall.png" alt="">
-            <button id="btn-alert d-none">Close</button>
         </div>
 
         <div id="photo-grid" class="flex flex-wrap mt-30 mb-30 gap-20">
