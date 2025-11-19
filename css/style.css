@@ -45,7 +45,20 @@ img {
     gap: 20px;
 }
 
+.d-none {
+    display: none;
+}
+
 /* LAYOUT */
+
+.over-wrap {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+}
+
 header {
     background-image: url(../img/wall.png);
     background-size: cover;
@@ -68,6 +81,19 @@ body {
     margin: 0 auto;
 }
 
+.box-alert {
+    position: fixed;
+    z-index: 99999;
+
+}
+
+.box-alert img {
+    width: 50%;
+    height: 50%;
+}
+
+.btn-alert {}
+
 .col {
     width: 100%
 }
@@ -80,7 +106,8 @@ body {
 
 .card:hover {
     transform: scale(1.2) rotate(16deg);
-    z-index: 9999;
+    z-index: 999;
+    cursor: pointer;
 }
 
 .card:hover .pin {

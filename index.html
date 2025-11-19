@@ -17,19 +17,27 @@
     <link rel="stylesheet" href="./css/responsive.css">
     <title>Album Fotografico</title>
 </head>
+<!-- Overlay -->
+<div class="over-wrap"></div>
 
 <header class="flex justify-center align-center">
     <h1>ESTATE '24</h1>
 </header>
 
 <body>
+
     <div class="container">
+
+        <div class="box-alert flex justify-center">
+            <img src="./img/wall.png" alt="">
+            <button id="btn-alert d-none">Close</button>
+        </div>
+
         <div id="photo-grid" class="flex flex-wrap mt-30 mb-30 gap-20">
             <!-- Photo -->
             <!-- End-Photo -->
         </div>
     </div>
-
 
     <!-- Axios -->
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
